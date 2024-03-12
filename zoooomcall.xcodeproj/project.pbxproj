@@ -9,21 +9,34 @@
 /* Begin PBXBuildFile section */
 		927A5BDB2B9F0A390019DA5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A5BDA2B9F0A390019DA5A /* AppDelegate.swift */; };
 		927A5BDD2B9F0A390019DA5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A5BDC2B9F0A390019DA5A /* SceneDelegate.swift */; };
-		927A5BDF2B9F0A390019DA5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A5BDE2B9F0A390019DA5A /* ViewController.swift */; };
-		927A5BE22B9F0A390019DA5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927A5BE02B9F0A390019DA5A /* Main.storyboard */; };
+		927A5BDF2B9F0A390019DA5A /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A5BDE2B9F0A390019DA5A /* WelcomeViewController.swift */; };
 		927A5BE42B9F0A3A0019DA5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 927A5BE32B9F0A3A0019DA5A /* Assets.xcassets */; };
 		927A5BE72B9F0A3A0019DA5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927A5BE52B9F0A3A0019DA5A /* LaunchScreen.storyboard */; };
+		927A5BF02B9F0AD60019DA5A /* StreamVideo in Frameworks */ = {isa = PBXBuildFile; productRef = 927A5BEF2B9F0AD60019DA5A /* StreamVideo */; };
+		927A5BF22B9F0AD60019DA5A /* StreamVideoSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 927A5BF12B9F0AD60019DA5A /* StreamVideoSwiftUI */; };
+		927A5BF42B9F0AD60019DA5A /* StreamVideoUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 927A5BF32B9F0AD60019DA5A /* StreamVideoUIKit */; };
+		927A5C022B9F0D000019DA5A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 927A5C012B9F0D000019DA5A /* FirebaseAuth */; };
+		927A5C042B9F0D070019DA5A /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 927A5C032B9F0D070019DA5A /* FirebaseAuthCombine-Community */; };
+		927A5C062B9F0EDE0019DA5A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 927A5C052B9F0EDE0019DA5A /* GoogleService-Info.plist */; };
+		927A5C082B9F0FD70019DA5A /* CallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A5C072B9F0FD70019DA5A /* CallManager.swift */; };
+		927A5C0A2B9F0FED0019DA5A /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A5C092B9F0FED0019DA5A /* AuthManager.swift */; };
+		927A5C0F2B9F2C5E0019DA5A /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A5C0E2B9F2C5E0019DA5A /* AccountViewController.swift */; };
+		927A5C132BA030730019DA5A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A5C122BA030730019DA5A /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		927A5BD72B9F0A390019DA5A /* zoooomcall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zoooomcall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		927A5BDA2B9F0A390019DA5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		927A5BDC2B9F0A390019DA5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		927A5BDE2B9F0A390019DA5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		927A5BE12B9F0A390019DA5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		927A5BDE2B9F0A390019DA5A /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		927A5BE32B9F0A3A0019DA5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		927A5BE62B9F0A3A0019DA5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		927A5BE82B9F0A3A0019DA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		927A5C052B9F0EDE0019DA5A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		927A5C072B9F0FD70019DA5A /* CallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallManager.swift; sourceTree = "<group>"; };
+		927A5C092B9F0FED0019DA5A /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		927A5C0E2B9F2C5E0019DA5A /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		927A5C122BA030730019DA5A /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +44,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				927A5BF22B9F0AD60019DA5A /* StreamVideoSwiftUI in Frameworks */,
+				927A5BF42B9F0AD60019DA5A /* StreamVideoUIKit in Frameworks */,
+				927A5C022B9F0D000019DA5A /* FirebaseAuth in Frameworks */,
+				927A5BF02B9F0AD60019DA5A /* StreamVideo in Frameworks */,
+				927A5C042B9F0D070019DA5A /* FirebaseAuthCombine-Community in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +60,7 @@
 			children = (
 				927A5BD92B9F0A390019DA5A /* zoooomcall */,
 				927A5BD82B9F0A390019DA5A /* Products */,
+				927A5C002B9F0D000019DA5A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +75,34 @@
 		927A5BD92B9F0A390019DA5A /* zoooomcall */ = {
 			isa = PBXGroup;
 			children = (
+				927A5C0B2B9F0FF20019DA5A /* Manager */,
 				927A5BDA2B9F0A390019DA5A /* AppDelegate.swift */,
 				927A5BDC2B9F0A390019DA5A /* SceneDelegate.swift */,
-				927A5BDE2B9F0A390019DA5A /* ViewController.swift */,
-				927A5BE02B9F0A390019DA5A /* Main.storyboard */,
+				927A5C052B9F0EDE0019DA5A /* GoogleService-Info.plist */,
+				927A5BDE2B9F0A390019DA5A /* WelcomeViewController.swift */,
 				927A5BE32B9F0A3A0019DA5A /* Assets.xcassets */,
 				927A5BE52B9F0A3A0019DA5A /* LaunchScreen.storyboard */,
 				927A5BE82B9F0A3A0019DA5A /* Info.plist */,
+				927A5C122BA030730019DA5A /* WelcomeView.swift */,
 			);
 			path = zoooomcall;
+			sourceTree = "<group>";
+		};
+		927A5C002B9F0D000019DA5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		927A5C0B2B9F0FF20019DA5A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				927A5C072B9F0FD70019DA5A /* CallManager.swift */,
+				927A5C092B9F0FED0019DA5A /* AuthManager.swift */,
+				927A5C0E2B9F2C5E0019DA5A /* AccountViewController.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +121,13 @@
 			dependencies = (
 			);
 			name = zoooomcall;
+			packageProductDependencies = (
+				927A5BEF2B9F0AD60019DA5A /* StreamVideo */,
+				927A5BF12B9F0AD60019DA5A /* StreamVideoSwiftUI */,
+				927A5BF32B9F0AD60019DA5A /* StreamVideoUIKit */,
+				927A5C012B9F0D000019DA5A /* FirebaseAuth */,
+				927A5C032B9F0D070019DA5A /* FirebaseAuthCombine-Community */,
+			);
 			productName = zoooomcall;
 			productReference = 927A5BD72B9F0A390019DA5A /* zoooomcall.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +156,10 @@
 				Base,
 			);
 			mainGroup = 927A5BCE2B9F0A390019DA5A;
+			packageReferences = (
+				927A5BEE2B9F0AD60019DA5A /* XCRemoteSwiftPackageReference "stream-video-swift" */,
+				927A5BF52B9F0B6C0019DA5A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 927A5BD82B9F0A390019DA5A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +176,7 @@
 			files = (
 				927A5BE72B9F0A3A0019DA5A /* LaunchScreen.storyboard in Resources */,
 				927A5BE42B9F0A3A0019DA5A /* Assets.xcassets in Resources */,
-				927A5BE22B9F0A390019DA5A /* Main.storyboard in Resources */,
+				927A5C062B9F0EDE0019DA5A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +187,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				927A5BDF2B9F0A390019DA5A /* ViewController.swift in Sources */,
+				927A5BDF2B9F0A390019DA5A /* WelcomeViewController.swift in Sources */,
 				927A5BDB2B9F0A390019DA5A /* AppDelegate.swift in Sources */,
+				927A5C0F2B9F2C5E0019DA5A /* AccountViewController.swift in Sources */,
 				927A5BDD2B9F0A390019DA5A /* SceneDelegate.swift in Sources */,
+				927A5C082B9F0FD70019DA5A /* CallManager.swift in Sources */,
+				927A5C0A2B9F0FED0019DA5A /* AuthManager.swift in Sources */,
+				927A5C132BA030730019DA5A /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		927A5BE02B9F0A390019DA5A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				927A5BE12B9F0A390019DA5A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		927A5BE52B9F0A3A0019DA5A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -295,9 +340,10 @@
 				DEVELOPMENT_TEAM = S374J45NYJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = zoooomcall/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow access to share video during call";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Please allow access to share audio during call";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,9 +369,10 @@
 				DEVELOPMENT_TEAM = S374J45NYJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = zoooomcall/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow access to share video during call";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Please allow access to share audio during call";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +410,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		927A5BEE2B9F0AD60019DA5A /* XCRemoteSwiftPackageReference "stream-video-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GetStream/stream-video-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.1;
+			};
+		};
+		927A5BF52B9F0B6C0019DA5A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.22.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		927A5BEF2B9F0AD60019DA5A /* StreamVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 927A5BEE2B9F0AD60019DA5A /* XCRemoteSwiftPackageReference "stream-video-swift" */;
+			productName = StreamVideo;
+		};
+		927A5BF12B9F0AD60019DA5A /* StreamVideoSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 927A5BEE2B9F0AD60019DA5A /* XCRemoteSwiftPackageReference "stream-video-swift" */;
+			productName = StreamVideoSwiftUI;
+		};
+		927A5BF32B9F0AD60019DA5A /* StreamVideoUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 927A5BEE2B9F0AD60019DA5A /* XCRemoteSwiftPackageReference "stream-video-swift" */;
+			productName = StreamVideoUIKit;
+		};
+		927A5C012B9F0D000019DA5A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 927A5BF52B9F0B6C0019DA5A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		927A5C032B9F0D070019DA5A /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 927A5BF52B9F0B6C0019DA5A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 927A5BCF2B9F0A390019DA5A /* Project object */;
 }

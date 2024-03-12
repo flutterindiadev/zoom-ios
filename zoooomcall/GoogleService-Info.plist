@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyAKpL3rf10dzAnMRiBfyd3_AVeoT_PxEtE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>351706544454</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>zoooomcall</string>
+	<key>PROJECT_ID</key>
+	<string>zooomcall-b5ad9</string>
+	<key>STORAGE_BUCKET</key>
+	<string>zooomcall-b5ad9.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:351706544454:ios:d92966611205c989af4d47</string>
+</dict>
+</plist>
